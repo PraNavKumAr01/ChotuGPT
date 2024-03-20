@@ -24,6 +24,31 @@ This model is able to form basic english words and sentences but still lacks the
 
 # Repository Details
 
-The gpttrain.ipynb contains the data loading and training code. You can run the same code and tune the hyperparameters by yourself. 
+The `gpttrain.ipynb` contains the data loading and training code. You can run the same code and tune the hyperparameters by yourself. 
 
-The tokenizer.py file has the tokenizer based on the Byte Pair Algorithm, but has not yet been impemented along with the transformer model
+The `tokenizer.py` file has the tokenizer based on the Byte Pair Algorithm, but has not yet been impemented along with the transformer model
+
+The `config.py` file has the definitions of the GPT Model and Hyperparameters
+
+The `generate.py` file has the code for testing and sampling from the model
+
+# Running the model
+
+To run the model follow these steps
+
+First clone both the github repository and the weights from huggingface
+
+`!git clone https://github.com/PraNavKumAr01/ChotuGPT.git`<br />
+`!git clone https://huggingface.co/PK03/GPT43M_30K`
+
+Then cd into the github repository to get the `generate.py` file
+
+`%cd /content/ChotuGPT`
+
+Run the `generate.py` file
+
+Give the huggingface weights path to `--model_path` and how long you want the response to be generated to `--max_new_tokens`
+
+`!python generate.py --model_path /content/GPT43M_30K/gpt43M_30k.pth --max_new_tokens 600`
+
+
