@@ -51,4 +51,6 @@ Give the huggingface weights path to `--model_path` and how long you want the re
 
 `!python generate.py --model_path /content/GPT43M_30K/gpt43M_30k.pth --max_new_tokens 600`
 
+Or you can directly run this colab notebook
 
+[Colab Notebook](https://colab.research.google.com/drive/1bN6eHQW9TgDBsx8gE8MO9icEkNsDRbiV?usp=sharing)
