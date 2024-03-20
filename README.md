@@ -40,7 +40,7 @@ But if any of you do have the resources !!GO AHEAD!!
 
 The `gpttrain.ipynb` contains the data loading and training code. You can run the same code and tune the hyperparameters by yourself. 
 
-The `GPTfinal.ipynb` contains the entire code of creating and loading data, as well as the complete architecture and training loop for the encoder + decoder transformer
+The `completegpt.ipynb` contains the entire code of creating and loading data, as well as the complete architecture and training loop for the encoder + decoder transformer
 
 The `tokenizer.py` file has the tokenizer based on the Byte Pair Algorithm, but has not yet been impemented along with the transformer model
 
