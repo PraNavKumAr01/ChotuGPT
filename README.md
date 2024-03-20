@@ -36,9 +36,12 @@ The `generate.py` file has the code for testing and sampling from the model
 
 To run the model follow these steps
 
-First clone both the github repository and the weights from huggingface
+First clone the github repository
 
 `!git clone https://github.com/PraNavKumAr01/ChotuGPT.git`<br />
+
+ Get the weights from huggingface
+ 
 `!git clone https://huggingface.co/PK03/GPT43M_30K`
 
 Then cd into the github repository to get the `generate.py` file
