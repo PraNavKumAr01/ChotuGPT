@@ -105,8 +105,6 @@ class GPTLanguageModel(nn.Module):
         self.blocks = nn.Sequential(*[Block(n_embd, n_head=n_head) for _ in range(n_layer)])
         self.ln_f = nn.LayerNorm(n_embd) # final layer norm
         self.lm_head = nn.Linear(n_embd, vocab_size)
-
-        # better init, not covered in the original GPT video, but important, will cover in followup video
         self.apply(self._init_weights)
 
     def _init_weights(self, module):
