@@ -1,5 +1,5 @@
 # ChotuGPT
-I have implemented the Transformer architecture from scratch. The decoder model implemented in this repository is responsible for generating text based on its training. This is how it works
+This repository has the implementation of the Transformer architecture from scratch. The decoder only model implemented in this repository is responsible for generating text based on its training. This is how it works
 
 
 <img src="https://github.com/PraNavKumAr01/ChotuGPT/blob/main/transformer.jpeg" width="500" height="500">
